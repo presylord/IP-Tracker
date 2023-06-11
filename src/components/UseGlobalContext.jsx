@@ -29,7 +29,6 @@ export const AppProvider = ({ children }) => {
 
     useEffect(() => {
         fetchData(url)
-
         setLoading(false)
     }, [])
 
